@@ -5,8 +5,8 @@ public class CurrentStart {
 
 	public static void main(String args[]) throws InterruptedException {
 		//lockerRunInMainThread();
-		//lockerRunInRunnable();
-		lockerRunInExecutor();
+		lockerRunInRunnable();
+		//lockerRunInExecutor();
 	}
 	public static void lockerRunInMainThread() {
 		LockManager lockManager = LockManager.getInstance();
